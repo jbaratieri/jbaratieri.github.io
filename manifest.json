@@ -1,20 +1,25 @@
 {
-  "name": "Checklist de Construção de Violão",
-  "short_name": "Checklist Violão",
+  "id": "/",
+  "name": "Checklist de Constru\u00e7\u00e3o de Viol\u00e3o",
+  "short_name": "Checklist Viol\u00e3o",
+  "description": "Checklist interativo para luthiers acompanharem passo a passo a constru\u00e7\u00e3o de viol\u00f5es.",
   "start_url": "index.html",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#f8f4ee",
   "theme_color": "#0077cc",
   "icons": [
     {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }

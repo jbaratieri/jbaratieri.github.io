@@ -2,10 +2,30 @@
 <html lang='pt-BR'>
 
 <head>
-  <meta charset='UTF-8' />
-  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>Checklist Construção de Violão (Sistema Espanhol) - Baratieri Luthieria</title>
+
+  <!-- Aparência do app em Android -->
+  <meta name="theme-color" content="#0077cc" />
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Checklist Violão">
+
+  <!-- Aparência em iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Checklist Violão">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- Favicon (opcional, você pode trocar depois) -->
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+
+  <!-- CSS e Manifest -->
   <link rel="stylesheet" href="checklist-violao.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+
   <!--
     VERSÃO APRIMORADA
     ==================
@@ -1505,23 +1525,12 @@
      INSTRUÇÕES PARA SEPARAR EM ARQUIVOS EXTERNOS
 ===================================================== -->
   <!--
-PARA SEPARAR:
-1. Crie três arquivos:
-   • checklist-violao.html  (este arquivo, mas REMOVA o bloco <style> e <script> interno)
-   • checklist-violao.css   (copie todo o conteúdo do <style> para cá)
-   • checklist-violao.js    (copie todo o conteúdo do <script> para cá)
 
-2. No <head> do HTML, adicione:
-     <link rel="stylesheet" href="checklist-violao.css" />
-
-3. Antes de fechar </body>, adicione:
-     <script src="checklist-violao.js"></script>
-
-4. Se quiser usar um logotipo: substitua LOGO_KEY no localStorage com uma string base64.
+. Se quiser usar um logotipo: substitua LOGO_KEY no localStorage com uma string base64.
    Exemplo no console do navegador:
    localStorage.setItem('violaoLogoBase64','data:image/png;base64,SEU_BASE64_AQUI');
 
-5. Para exportar PDF: clique no botão "Gerar PDF" e, no diálogo de impressão, escolha "Salvar como PDF".
+. Para exportar PDF: clique no botão "Gerar PDF" e, no diálogo de impressão, escolha "Salvar como PDF".
 -->
   <script src="checklist-violao.js"></script>
 </body>
